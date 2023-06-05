@@ -13,12 +13,26 @@ then use the structure theorem to obtain useful persistent homology.
  
  ## Fluffy reading
  [This article](https://www.quantamagazine.org/geometry-reveals-how-the-world-is-assembled-from-cubes-20201119/) is a nice fluffy piece about the use of Voronoi Cell's in ["Multidimensional Persistence"](https://en.wikipedia.org/wiki/Topological_data_analysis#Multidimensional_persistence), which show the application of Topological Data Analysis as a burgeoning field of practical computation.
-# Example 1
+
+## Strucuture of This Repository
+As my understanding of the requirements change I've decided to split source files into Examples and Filters.
+Filters are meant to demonstrate extracting certain data from a graph.
+While examples are meant to be larger proofs of concepts.
+
+# Filters
+## Laplacian Spectral Gap
+Meant to extract the Laplacian Spectral Gap from a graph.
+
+Mainly defined as the difference between the moduli of the eigen values of the Laplacian matrix of the graph.
+Sometimes defined as the smallest non-zero moduli, both options has been included.
+
+# Examples
+## Example 1
 In this example I use networkx's inbuilt example weighted graph to find and highlight cliques of size 4.
 The source code is located in the file "example1.py":
 ![A graph with cliques of size 4 highlighted](output1.png)
 
-# Example 2
+## Example 2
 In this example I use SciPy's ability to calculate Voronoi Cell's to extract the [Alpha Complexe](https://courses.cs.duke.edu/fall06/cps296.1/Lectures/sec-III-4.pdf) (In the limit of ball sizes going to infinity).
 For the bellow example the blue points are the original point cloud,
 the grey lines is the induced topology,
