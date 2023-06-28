@@ -1,3 +1,11 @@
+:warning: This repo has been abandoned. It served its purpose as a proof of concept and in now being worked on a private enterprise github. :warning:
+
+If you are from that enterprise please ask for the link, 
+if you're not sorry I guess? 
+But, there's lots of networkx and TDA resources out there.
+
+I suggest [scikit-tda](https://scikit-tda.org/) and my own public [Simplicial Homology Notes](https://github.com/CleisthenesH/Math-Notes).
+
 # Intro
 This repository is a quick-proof of concept for using the python and the networkx library to import publicly available traffic data to find and report on the presence of cliques.
 
